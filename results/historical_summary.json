@@ -1,0 +1,103 @@
+{
+  "protocol": "provided_context",
+  "historical_private_data_not_distributed": true,
+  "synthetic_examples_do_not_reproduce_these_scores": true,
+  "dataset_counts": {
+    "train": 248,
+    "val": 40,
+    "test": 60,
+    "fact_families": 202
+  },
+  "selected_model": "Q4",
+  "selected_on_validation_before_test": true,
+  "review_method": "assistant-assisted scoring, not independent human blind review",
+  "single_training_seed": 42,
+  "hardware": "RTX 3050 Ti Laptop 4GB",
+  "test_summary": [
+    {
+      "model": "Q0",
+      "n": 60,
+      "rougeL": 25.630946508720097,
+      "corpus_bleu4": 4.835051437413886,
+      "mean_assistant_score_0_5": 2.9833333333333334,
+      "perfect_score_count": 22,
+      "token_limit_count": 4,
+      "median_generate_seconds": 7.656780949999984,
+      "tokens_per_second": 8.916026528327443,
+      "training_resource": null
+    },
+    {
+      "model": "Q4",
+      "n": 60,
+      "rougeL": 50.7961365687403,
+      "corpus_bleu4": 23.98172599093419,
+      "mean_assistant_score_0_5": 4.05,
+      "perfect_score_count": 38,
+      "token_limit_count": 0,
+      "median_generate_seconds": 4.273523149999846,
+      "tokens_per_second": 5.3719053122706715,
+      "training_resource": {
+        "rank": 4,
+        "alpha": 8,
+        "optimizer_steps": 62,
+        "validation_loss": 1.2142412662506104,
+        "train_eval_save_seconds": 394.9362335000005,
+        "peak_allocated_GiB": 1.2313871383666992,
+        "peak_reserved_GiB": 1.845703125,
+        "adapter_bytes": 8841592,
+        "trainable_parameters": 2199552
+      }
+    },
+    {
+      "model": "Q8",
+      "n": 60,
+      "rougeL": 51.21196081834257,
+      "corpus_bleu4": 25.459712737351722,
+      "mean_assistant_score_0_5": 3.9833333333333334,
+      "perfect_score_count": 35,
+      "token_limit_count": 0,
+      "median_generate_seconds": 3.955592949999982,
+      "tokens_per_second": 5.435225400644624,
+      "training_resource": {
+        "rank": 8,
+        "alpha": 16,
+        "optimizer_steps": 62,
+        "validation_loss": 1.1893136501312256,
+        "train_eval_save_seconds": 455.3766199999991,
+        "peak_allocated_GiB": 1.2641630172729492,
+        "peak_reserved_GiB": 1.880859375,
+        "adapter_bytes": 17640136,
+        "trainable_parameters": 4399104
+      }
+    },
+    {
+      "model": "Q16",
+      "n": 60,
+      "rougeL": 52.633497779357846,
+      "corpus_bleu4": 26.72099662457523,
+      "mean_assistant_score_0_5": 4.016666666666667,
+      "perfect_score_count": 37,
+      "token_limit_count": 0,
+      "median_generate_seconds": 4.451904150000246,
+      "tokens_per_second": 5.388268680656336,
+      "training_resource": {
+        "rank": 16,
+        "alpha": 32,
+        "optimizer_steps": 62,
+        "validation_loss": 1.1660230159759521,
+        "train_eval_save_seconds": 451.8523970999995,
+        "peak_allocated_GiB": 1.3297147750854492,
+        "peak_reserved_GiB": 1.94921875,
+        "adapter_bytes": 35237104,
+        "trainable_parameters": 8798208
+      }
+    }
+  ],
+  "limitations": [
+    "One training seed and limited domain data.",
+    "Family-level split is not source-document isolation.",
+    "Q0 has four outputs reaching the generation ceiling; retained in scoring.",
+    "UI keyword matching was not independently evaluated end to end.",
+    "Scores and inference time do not establish business reliability or per-token speed improvement."
+  ]
+}

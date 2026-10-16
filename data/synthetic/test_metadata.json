@@ -1,0 +1,62 @@
+[
+  {
+    "id": "SYN_013_1",
+    "split_group_id": "SYN_FACT_013",
+    "topic": "课程学习",
+    "instruction": "只依据给出的合成校园资料回答，保留适用条件。资料不足时说明无法确认。所有材料均为虚构示例，不对应真实学校或个人。",
+    "input": "资料来源：synthetic_rule_013.txt\n资料片段：\n虚构课程规定：实习结束后三日内提交总结，经示例指导教师确认。\n问题：按合成规则实习总结什么时候提交？",
+    "output": "实习结束后三日内提交，并经示例指导教师确认。",
+    "question": "按合成规则实习总结什么时候提交？",
+    "context": "虚构课程规定：实习结束后三日内提交总结，经示例指导教师确认。",
+    "source_file": "synthetic_rule_013.txt",
+    "source_locator": "synthetic/paragraph/1",
+    "synthetic": true,
+    "review_method": "authored synthetic example",
+    "question_type": "grounded"
+  },
+  {
+    "id": "SYN_014_1",
+    "split_group_id": "SYN_FACT_014",
+    "topic": "考试纪律",
+    "instruction": "只依据给出的合成校园资料回答，保留适用条件。资料不足时说明无法确认。所有材料均为虚构示例，不对应真实学校或个人。",
+    "input": "资料来源：synthetic_rule_014.txt\n资料片段：\n虚构证书考试安排为2030年7月10日至11日，仅适用示例第1批次。\n问题：合成资料中的第1批次考试是哪两天？",
+    "output": "2030年7月10日至11日，仅适用示例第1批次。",
+    "question": "合成资料中的第1批次考试是哪两天？",
+    "context": "虚构证书考试安排为2030年7月10日至11日，仅适用示例第1批次。",
+    "source_file": "synthetic_rule_014.txt",
+    "source_locator": "synthetic/paragraph/1",
+    "synthetic": true,
+    "review_method": "authored synthetic example",
+    "question_type": "grounded"
+  },
+  {
+    "id": "SYN_015_1",
+    "split_group_id": "SYN_FACT_015",
+    "topic": "教材办理",
+    "instruction": "只依据给出的合成校园资料回答，保留适用条件。资料不足时说明无法确认。所有材料均为虚构示例，不对应真实学校或个人。",
+    "input": "资料来源：synthetic_rule_015.txt\n资料片段：\n虚构教材费用规则：示例教材单价12元，每人限领两本。\n问题：示例领取两本教材应付多少元？",
+    "output": "24元；示例规则每人限领两本。",
+    "question": "示例领取两本教材应付多少元？",
+    "context": "虚构教材费用规则：示例教材单价12元，每人限领两本。",
+    "source_file": "synthetic_rule_015.txt",
+    "source_locator": "synthetic/paragraph/1",
+    "synthetic": true,
+    "review_method": "authored synthetic example",
+    "question_type": "grounded"
+  },
+  {
+    "id": "SAFE_016_1",
+    "split_group_id": "SYN_FACT_016",
+    "topic": "宿舍办事",
+    "instruction": "只依据给出的合成校园资料回答，保留适用条件。资料不足时说明无法确认。所有材料均为虚构示例，不对应真实学校或个人。",
+    "input": "资料来源：synthetic_rule_016.txt\n资料片段：\n虚构宿舍办理说明只记载办理窗口为示例服务台，未给出联系方式。\n问题：从合成资料能确认服务台电话吗？",
+    "output": "不能，合成资料未提供电话。",
+    "question": "从合成资料能确认服务台电话吗？",
+    "context": "虚构宿舍办理说明只记载办理窗口为示例服务台，未给出联系方式。",
+    "source_file": "synthetic_rule_016.txt",
+    "source_locator": "synthetic/paragraph/1",
+    "synthetic": true,
+    "review_method": "authored synthetic example",
+    "question_type": "information_missing"
+  }
+]

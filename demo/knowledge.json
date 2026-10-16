@@ -1,0 +1,98 @@
+[
+  {
+    "id": "SYN_DOC_001",
+    "topic": "体育选课",
+    "title": "合成示例课程的选课时间是什么？",
+    "source": "synthetic_rule_001.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "合成示例课程的选课时间为2030年3月5日09:00至11:00，仅限示例一年级。",
+    "questions": [
+      "合成示例课程的选课时间是什么？",
+      "请依据虚构示例说明：合成示例课程的选课时间是什么？"
+    ]
+  },
+  {
+    "id": "SYN_DOC_002",
+    "topic": "教材办理",
+    "title": "合成资料中教材缺页应如何处理？",
+    "source": "synthetic_rule_002.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构教材办理规则：收到教材后如有缺页，须保留领取记录并联系教材服务窗口。",
+    "questions": [
+      "合成资料中教材缺页应如何处理？",
+      "请依据虚构示例说明：合成资料中教材缺页应如何处理？"
+    ]
+  },
+  {
+    "id": "SYN_DOC_003",
+    "topic": "教师介绍",
+    "title": "合成资料中教师甲研究什么方向？",
+    "source": "synthetic_rule_003.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构教师甲的研究方向为组合数学，介绍材料仅用于程序示例。",
+    "questions": [
+      "合成资料中教师甲研究什么方向？",
+      "请依据虚构示例说明：合成资料中教师甲研究什么方向？"
+    ]
+  },
+  {
+    "id": "SYN_DOC_004",
+    "topic": "课程学习",
+    "title": "示例课程作业的提交截止时间是什么？",
+    "source": "synthetic_rule_004.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构课程规则：作业必须在每周四16:00前提交；补交需向任课教师说明原因。",
+    "questions": [
+      "示例课程作业的提交截止时间是什么？",
+      "请依据虚构示例说明：示例课程作业的提交截止时间是什么？"
+    ]
+  },
+  {
+    "id": "SYN_DOC_005",
+    "topic": "宿舍办事",
+    "title": "合成资料中的宿舍报修需登记什么？",
+    "source": "synthetic_rule_005.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构报修流程：登记楼栋和故障位置，再由值班人员安排处理。",
+    "questions": [
+      "合成资料中的宿舍报修需登记什么？",
+      "请依据虚构示例说明：合成资料中的宿舍报修需登记什么？"
+    ]
+  },
+  {
+    "id": "SYN_DOC_006",
+    "topic": "创新学分",
+    "title": "按合成资料完成三次示例实践计多少分？",
+    "source": "synthetic_rule_006.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构学分规则：每次完成示例实践计0.2分，最多计0.8分。",
+    "questions": [
+      "按合成资料完成三次示例实践计多少分？",
+      "请依据虚构示例说明：按合成资料完成三次示例实践计多少分？"
+    ]
+  },
+  {
+    "id": "SYN_DOC_007",
+    "topic": "劳动教育",
+    "title": "合成劳动任务完成后需要什么手续？",
+    "source": "synthetic_rule_007.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构劳动课程规定：示例小组完成任务后提交活动记录，经课程教师确认。",
+    "questions": [
+      "合成劳动任务完成后需要什么手续？",
+      "请依据虚构示例说明：合成劳动任务完成后需要什么手续？"
+    ]
+  },
+  {
+    "id": "SYN_DOC_008",
+    "topic": "考试纪律",
+    "title": "合成规则如何申请缓考？",
+    "source": "synthetic_rule_008.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构考试规则：需要申请缓考时应在考前提交申请及相应证明。",
+    "questions": [
+      "合成规则如何申请缓考？",
+      "请依据虚构示例说明：合成规则如何申请缓考？"
+    ]
+  }
+]

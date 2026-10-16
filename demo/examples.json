@@ -1,0 +1,38 @@
+[
+  {
+    "id": "SYN_001_1",
+    "title": "01 教务时间查询",
+    "source": "synthetic_rule_001.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "合成示例课程的选课时间为2030年3月5日09:00至11:00，仅限示例一年级。",
+    "question": "合成示例课程的选课时间是什么？",
+    "origin": "完全虚构的公开示例，不是真实测试记录"
+  },
+  {
+    "id": "SYN_003_1",
+    "title": "02 教师研究方向",
+    "source": "synthetic_rule_003.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构教师甲的研究方向为组合数学，介绍材料仅用于程序示例。",
+    "question": "合成资料中教师甲研究什么方向？",
+    "origin": "完全虚构的公开示例，不是真实测试记录"
+  },
+  {
+    "id": "SAFE_016_1",
+    "title": "03 资料不足问题",
+    "source": "synthetic_rule_016.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构宿舍办理说明只记载办理窗口为示例服务台，未给出联系方式。",
+    "question": "从合成资料能确认服务台电话吗？",
+    "origin": "完全虚构的公开示例，不是真实测试记录"
+  },
+  {
+    "id": "SYN_011_1",
+    "title": "04 计算能力局限",
+    "source": "synthetic_rule_011.txt",
+    "locator": "synthetic/paragraph/1",
+    "context": "虚构计算规则：甲项占60%，乙项占40%。",
+    "question": "示例甲项80、乙项90，总评多少？",
+    "origin": "完全虚构的公开示例，不是真实测试记录"
+  }
+]

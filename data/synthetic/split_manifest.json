@@ -1,0 +1,16 @@
+{
+  "synthetic": true,
+  "purpose": "schema and pipeline demonstration only",
+  "counts": {
+    "train": 16,
+    "val": 4,
+    "test": 4
+  },
+  "fact_families": {
+    "train": 8,
+    "val": 4,
+    "test": 4
+  },
+  "cross_split_fact_family_intersections": 0,
+  "not_historical_experiment_data": true
+}

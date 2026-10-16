@@ -1,0 +1,21 @@
+{
+  "created_on": "2026-10-16",
+  "kind": "sanitized_public_copy",
+  "raw_data_included": false,
+  "model_weights_included": false,
+  "thesis_included": false,
+  "secrets_intentionally_included": false,
+  "demo_and_dataset": "independently authored synthetic examples",
+  "historical_results": "aggregate only; original private data not redistributed",
+  "license_added": false,
+  "source_project_files_unchanged": true,
+  "status": "validated_public_release",
+  "validated_on": "2026-10-16",
+  "snapshot": "PUBLIC_FILES.sha256",
+  "validation_notes": "docs/VALIDATION.md",
+  "private_paths_ignored": true,
+  "ui_check": "previous screenshot retained; no further UI control",
+  "original_git_history_included": false,
+  "repository": "https://github.com/xuasas/campus-qa-qlora",
+  "readme_style": "monochrome GitHub Markdown with local SVG diagrams"
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Training, validation and local demonstration workflow</title><desc id="desc">Fact-family data split, frozen budget rank comparison, validation choice, held-out test and a separate Rust interface demonstration.</desc>
+<rect width="1200" height="360" fill="#FFFFFF"/>
+<g fill="#FFFFFF" stroke="#000000" stroke-width="1.5">
+<rect x="32" y="50" width="230" height="100" rx="10"/>
+<rect x="334" y="50" width="230" height="100" rx="10"/>
+<rect x="636" y="50" width="230" height="100" rx="10"/>
+<rect x="938" y="50" width="230" height="100" rx="10"/>
+<path d="M262 100H334M564 100H636M866 100H938M751 150V245H564" fill="none"/>
+<path d="M326 95L334 100L326 105M628 95L636 100L628 105M930 95L938 100L930 105M572 240L564 245L572 250" fill="none"/>
+<rect x="334" y="196" width="230" height="98" rx="10"/>
+</g>
+<g fill="#000000" font-family="Arial, sans-serif" text-anchor="middle">
+<text x="147" y="86" font-size="21" font-weight="700">Data &amp; evidence</text><text x="147" y="116" font-size="15">Split by fact families</text><text x="147" y="137" font-size="15">Train / validation / test</text>
+<text x="449" y="86" font-size="21" font-weight="700">QLoRA training</text><text x="449" y="116" font-size="15">Fixed two-epoch budget</text><text x="449" y="137" font-size="15">Rank 4 · 8 · 16</text>
+<text x="751" y="86" font-size="21" font-weight="700">Validation choice</text><text x="751" y="116" font-size="15">Evidence-based ratings</text><text x="751" y="137" font-size="15">Freeze before test</text>
+<text x="1053" y="86" font-size="21" font-weight="700">Held-out evaluation</text><text x="1053" y="116" font-size="15">Q0 / Q4 / Q8 / Q16</text><text x="1053" y="137" font-size="15">Quality + resource records</text>
+<text x="449" y="232" font-size="21" font-weight="700">Rust interface</text><text x="449" y="261" font-size="15">Source matching + inference</text><text x="449" y="282" font-size="15">Separate functional demo</text>
+<text x="751" y="230" font-size="14">Q4 is the fixed demo entry</text>
+<text x="600" y="334" font-size="15">Public examples demonstrate the pipeline; historical scores come from a separate private dataset.</text>
+</g></svg>

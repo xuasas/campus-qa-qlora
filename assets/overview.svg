@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+<title id="title">Campus QA QLoRA project overview</title>
+<desc id="desc">A monochrome overview of provided-context question answering with Qwen2.5, QLoRA adapters and a Rust interface on a four gigabyte GPU.</desc>
+<rect width="1200" height="370" fill="#FFFFFF"/>
+<g fill="#000000" font-family="Arial, sans-serif">
+<text x="42" y="48" font-size="14" letter-spacing="3">SMALL MODEL · LIMITED MEMORY · TRACEABLE ANSWERS</text>
+<text x="42" y="109" font-size="46" font-weight="700">Context in. Grounded answers out.</text>
+<text x="42" y="147" font-size="20">A reproducible workflow for low-memory domain adaptation.</text>
+</g>
+<g fill="#FFFFFF" stroke="#000000" stroke-width="1.5">
+<rect x="42" y="194" width="266" height="112" rx="12"/>
+<rect x="342" y="194" width="266" height="112" rx="12"/>
+<rect x="642" y="194" width="266" height="112" rx="12"/>
+<rect x="942" y="194" width="216" height="112" rx="12"/>
+<path d="M308 250H342M608 250H642M908 250H942" fill="none"/>
+<path d="M335 245L342 250L335 255M635 245L642 250L635 255M935 245L942 250L935 255" fill="none"/>
+</g>
+<g fill="#000000" font-family="Arial, sans-serif">
+<text x="62" y="226" font-size="13" letter-spacing="2">INPUT</text><text x="62" y="260" font-size="25" font-weight="700">Passage + question</text><text x="62" y="286" font-size="15">Source conditions stay explicit</text>
+<text x="362" y="226" font-size="13" letter-spacing="2">MODEL</text><text x="362" y="260" font-size="25" font-weight="700">Qwen2.5 · 0.5B</text><text x="362" y="286" font-size="15">NF4 + LoRA + BF16</text>
+<text x="662" y="226" font-size="13" letter-spacing="2">SELECTION</text><text x="662" y="260" font-size="25" font-weight="700">Rank 4 / 8 / 16</text><text x="662" y="286" font-size="15">Validation before test</text>
+<text x="962" y="226" font-size="13" letter-spacing="2">LOCAL DEMO</text><text x="962" y="260" font-size="25" font-weight="700">Rust + Python</text><text x="962" y="286" font-size="15">Inspect sources and logs</text>
+<text x="42" y="346" font-size="14">4 GB GPU experiment</text><text x="292" y="346" font-size="14">Public synthetic examples</text><text x="602" y="346" font-size="14">No model weights bundled</text><text x="942" y="346" font-size="14">Windows desktop</text>
+</g></svg>
